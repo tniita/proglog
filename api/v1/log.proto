@@ -5,6 +5,6 @@ option go_package = "github.com/tniita/api/log_v1";
 package log.v1;
 
 message Record { 
-    bytes vaule = 1;
+    bytes value = 1;
     uint64 offset = 2;
 }
